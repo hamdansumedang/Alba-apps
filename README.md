@@ -1,35 +1,32 @@
-# ALBA-APPS
-**Aplikasi Keuangan Pondok Pesantren**  
-Real-time Buku Besar + Foto Bukti + Offline Mode
+# React + TypeScript + Vite
 
-**Target User**: < 20 orang (Kepala Keuangan, Staff Kantor, Kantin, Koperasi)  
-**Platform**: Mobile Web (PWA) + Offline Support
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
----
+Currently, two official plugins are available:
 
-## Struktur Folder
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
 ```
-ALBA-APPS/
-├── README.md
-├── docs/
-│   ├── PRD.md
-│   ├── BRD.md
-│   ├── ERD.md
-│   ├── DatabaseSchema.md
-│   ├── TechStack.md
-│   └── UserFlow.md
-├── src/          ← nanti isi kode
-└── assets/       ← logo, mockup, dll
-```
 
----
-
-## Quick Start (untuk Developer)
-
-1. Baca `docs/PRD.md` → pahami fitur utama
-2. Baca `docs/ERD.md` → pahami struktur data
-3. Baca `docs/TechStack.md` → stack yang direkomendasikan
-4. Mulai development dari `src/`
-
-Semua dokumen dibuat ringkas & langsung ke inti."# Alba-apps" 
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
