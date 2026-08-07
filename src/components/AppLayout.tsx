@@ -11,6 +11,7 @@ const navItems = [
   { to: '/kantin/reports', label: 'Laporan Kantin' },
   { to: '/koperasi/members', label: 'Anggota Koperasi' },
   { to: '/koperasi/capital', label: 'Modal Koperasi' },
+  { to: '/audit-trail', label: 'Audit Trail' },
   { to: '/master/categories', label: 'Kategori' },
   { to: '/master/payment-methods', label: 'Metode Bayar' },
 ]

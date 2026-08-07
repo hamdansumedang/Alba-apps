@@ -14,6 +14,7 @@ import { KantinSalesPage } from './features/kantin/KantinSalesPage'
 import { KantinReportPage } from './features/kantin/KantinReportPage'
 import { KoperasiMembersPage } from './features/koperasi/KoperasiMembersPage'
 import { KoperasiCapitalPage } from './features/koperasi/KoperasiCapitalPage'
+import { AuditTrailPage } from './features/ledger/AuditTrailPage'
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="/kantin/reports" element={<KantinReportPage />} />
             <Route path="/koperasi/members" element={<KoperasiMembersPage />} />
             <Route path="/koperasi/capital" element={<KoperasiCapitalPage />} />
+            <Route path="/audit-trail" element={<AuditTrailPage />} />
             <Route path="/master/categories" element={<CategoriesPage />} />
             <Route path="/master/payment-methods" element={<PaymentMethodsPage />} />
           </Route>

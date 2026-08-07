@@ -16,9 +16,9 @@
 - Audit trail captures all changes.
 
 ## Checklist
-- [ ] Create unified ledger view.
-- [ ] Implement filters (date, unit, category, method).
-- [ ] Add search functionality.
-- [ ] Build reconciliation UI.
-- [ ] Implement audit trail logging.
-- [ ] Write tests.
+- [x] Create unified ledger view.
+- [x] Implement filters (date, unit, category, method).
+- [x] Add search functionality.
+- [x] Build reconciliation UI.
+- [x] Implement audit trail logging.
+- [x] Write tests.
