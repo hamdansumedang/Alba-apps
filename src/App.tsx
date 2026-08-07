@@ -8,6 +8,10 @@ import { CategoriesPage } from './features/master/CategoriesPage'
 import { PaymentMethodsPage } from './features/master/PaymentMethodsPage'
 import { TransactionsPage } from './features/transactions/TransactionsPage'
 import { LedgerPage } from './features/ledger/LedgerPage'
+import { InventoryPage } from './features/kantin/InventoryPage'
+import { PartnersPage } from './features/kantin/PartnersPage'
+import { KantinSalesPage } from './features/kantin/KantinSalesPage'
+import { KantinReportPage } from './features/kantin/KantinReportPage'
 
 export default function App() {
   return (
@@ -19,6 +23,10 @@ export default function App() {
             <Route path="/" element={<DashboardPage />} />
             <Route path="/transactions" element={<TransactionsPage />} />
             <Route path="/ledger" element={<LedgerPage />} />
+            <Route path="/kantin/pos" element={<KantinSalesPage />} />
+            <Route path="/kantin/inventory" element={<InventoryPage />} />
+            <Route path="/kantin/partners" element={<PartnersPage />} />
+            <Route path="/kantin/reports" element={<KantinReportPage />} />
             <Route path="/master/categories" element={<CategoriesPage />} />
             <Route path="/master/payment-methods" element={<PaymentMethodsPage />} />
           </Route>

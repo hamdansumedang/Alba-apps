@@ -5,6 +5,10 @@ const navItems = [
   { to: '/', label: 'Dashboard' },
   { to: '/transactions', label: 'Transaksi' },
   { to: '/ledger', label: 'Buku Besar' },
+  { to: '/kantin/pos', label: 'Kasir Kantin' },
+  { to: '/kantin/inventory', label: 'Inventori Kantin' },
+  { to: '/kantin/partners', label: 'Partner Kantin' },
+  { to: '/kantin/reports', label: 'Laporan Kantin' },
   { to: '/master/categories', label: 'Kategori' },
   { to: '/master/payment-methods', label: 'Metode Bayar' },
 ]
