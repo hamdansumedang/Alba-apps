@@ -17,9 +17,9 @@
 - Backup SOP is documented.
 
 ## Checklist
-- [ ] Write end‑to‑end tests (e.g., Playwright).
-- [ ] Audit Supabase RLS and storage policies.
-- [ ] Conduct UAT with test users.
-- [ ] Configure production environment variables on Vercel.
-- [ ] Deploy frontend to Vercel and backend to Supabase.
-- [ ] Document backup & recovery SOP.
+- [x] Write end‑to‑end tests (e.g., Playwright).
+- [x] Audit Supabase RLS and storage policies.
+- [x] Conduct UAT with test users.
+- [x] Configure production environment variables on Vercel.
+- [x] Deploy frontend to Vercel and backend to Supabase.
+- [x] Document backup & recovery SOP.
