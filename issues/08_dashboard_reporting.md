@@ -17,10 +17,10 @@
 - Report template matches requirements.
 
 ## Checklist
-- [ ] Build KPI card components.
-- [ ] Integrate chart library (e.g., Recharts).
-- [ ] Implement Excel export with `xlsx`.
-- [ ] Implement PDF export with `jspdf`.
-- [ ] Create executive report template.
-- [ ] Add date range picker.
-- [ ] Write tests.
+- [x] Build KPI card components.
+- [x] Integrate chart library (e.g., Recharts).
+- [x] Implement Excel export with `xlsx`.
+- [x] Implement PDF export with `jspdf`.
+- [x] Create executive report template.
+- [x] Add date range picker.
+- [x] Write tests.
