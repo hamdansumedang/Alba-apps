@@ -16,12 +16,12 @@
 - Daily report shows sales, margin, and ending stock.
 
 ## Checklist
-- [ ] Create `inventory_items` table.
-- [ ] Create `sales` table.
-- [ ] Create `partners` table.
-- [ ] Build inventory CRUD UI.
-- [ ] Build sales form with product picker.
-- [ ] Implement stock decrement trigger.
-- [ ] Build partner management UI.
-- [ ] Build daily sales report.
-- [ ] Write tests.
+- [x] Create `inventory_items` table.
+- [x] Create `sales` table.
+- [x] Create `partners` table.
+- [x] Build inventory CRUD UI.
+- [x] Build sales form with product picker.
+- [x] Implement stock decrement trigger.
+- [x] Build partner management UI.
+- [x] Build daily sales report.
+- [x] Write tests.
