@@ -9,6 +9,8 @@ const navItems = [
   { to: '/kantin/inventory', label: 'Inventori Kantin' },
   { to: '/kantin/partners', label: 'Partner Kantin' },
   { to: '/kantin/reports', label: 'Laporan Kantin' },
+  { to: '/koperasi/members', label: 'Anggota Koperasi' },
+  { to: '/koperasi/capital', label: 'Modal Koperasi' },
   { to: '/master/categories', label: 'Kategori' },
   { to: '/master/payment-methods', label: 'Metode Bayar' },
 ]

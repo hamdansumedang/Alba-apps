@@ -17,14 +17,14 @@
 - P&L report is accurate.
 
 ## Checklist
-- [ ] Create `purchases` table.
-- [ ] Create `sales_koperasi` table.
-- [ ] Create `capital` table.
-- [ ] Create `members` table.
-- [ ] Create `member_ledger` table.
-- [ ] Build purchase/sales forms.
-- [ ] Build capital management UI.
-- [ ] Build member management UI.
-- [ ] Build member ledger view.
-- [ ] Build P&L report.
-- [ ] Write tests.
+- [x] Create `purchases` table.
+- [x] Create `sales_koperasi` table.
+- [x] Create `capital` table.
+- [x] Create `members` table.
+- [x] Create `member_ledger` table.
+- [x] Build purchase/sales forms.
+- [x] Build capital management UI.
+- [x] Build member management UI.
+- [x] Build member ledger view.
+- [x] Build P&L report.
+- [x] Write tests.

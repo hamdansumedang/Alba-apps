@@ -12,6 +12,8 @@ import { InventoryPage } from './features/kantin/InventoryPage'
 import { PartnersPage } from './features/kantin/PartnersPage'
 import { KantinSalesPage } from './features/kantin/KantinSalesPage'
 import { KantinReportPage } from './features/kantin/KantinReportPage'
+import { KoperasiMembersPage } from './features/koperasi/KoperasiMembersPage'
+import { KoperasiCapitalPage } from './features/koperasi/KoperasiCapitalPage'
 
 export default function App() {
   return (
@@ -27,6 +29,8 @@ export default function App() {
             <Route path="/kantin/inventory" element={<InventoryPage />} />
             <Route path="/kantin/partners" element={<PartnersPage />} />
             <Route path="/kantin/reports" element={<KantinReportPage />} />
+            <Route path="/koperasi/members" element={<KoperasiMembersPage />} />
+            <Route path="/koperasi/capital" element={<KoperasiCapitalPage />} />
             <Route path="/master/categories" element={<CategoriesPage />} />
             <Route path="/master/payment-methods" element={<PaymentMethodsPage />} />
           </Route>
