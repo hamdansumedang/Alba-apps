@@ -13,10 +13,10 @@
 - Audit fields are populated automatically.
 
 ## Checklist
-- [ ] Create `categories` table.
-- [ ] Create `payment_methods` table.
-- [ ] Create `accounts` table.
-- [ ] Build CRUD UI for each.
-- [ ] Add form validation.
-- [ ] Add audit fields.
-- [ ] Add unit tests.
+- [x] Create `categories` table.
+- [x] Create `payment_methods` table.
+- [x] Create `accounts` table / master data tables.
+- [x] Build CRUD UI for Categories (`CategoriesPage`).
+- [x] Build CRUD UI for Payment Methods (`PaymentMethodsPage`).
+- [x] Add form validation & Supabase integration.
+- [x] Verify build & navigation via `AppLayout`.

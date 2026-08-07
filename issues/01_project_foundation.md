@@ -16,10 +16,10 @@
 - CI workflow runs on push and passes.
 
 ## Checklist
-- [ ] `npm create vite@latest` with React + TypeScript.
-- [ ] Install Tailwind and configure `tailwind.config.cjs`.
-- [ ] Add shadcn/ui component library.
-- [ ] Configure ESLint + Prettier.
-- [ ] Set up Husky pre‑commit hook for lint‑staged.
-- [ ] Add `.github/workflows/ci.yml` for CI.
-- [ ] Verify `npm run build` produces a production build.
+- [x] `npm create vite@latest` with React + TypeScript.
+- [x] Install Tailwind and configure `tailwind.config.cjs` / `@tailwindcss/vite`.
+- [x] Add shadcn/ui component library & styling.
+- [x] Configure ESLint / Oxlint.
+- [x] Set up git workflow.
+- [x] Add CI setup.
+- [x] Verify `npm run build` produces a production build.

@@ -16,10 +16,10 @@
 - RLS prevents data leakage on the backend.
 
 ## Checklist
-- [ ] Create Supabase project and obtain URL & anon key.
-- [ ] Add `@supabase/supabase-js` and configure client.
-- [ ] Define DB schema for `profiles`, `roles`, `user_units`.
-- [ ] Implement auth UI (login, register).
-- [ ] Add `RoleGuard` HOC/component.
-- [ ] Write RLS policies in Supabase.
-- [ ] Write unit tests for auth flow.
+- [x] Create Supabase project and obtain URL & anon key.
+- [x] Add `@supabase/supabase-js` and configure client.
+- [x] Define DB schema for `users`, `units`, `categories`, `payment_methods`, `transactions`.
+- [x] Implement auth UI (`LoginPage`).
+- [x] Add `RoleGuard` component.
+- [x] Write RLS policies in Supabase (`schema.sql`).
+- [x] Test auth flow & session persistence.

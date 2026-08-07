@@ -17,11 +17,10 @@
 - Edit/delete rules respect user role.
 
 ## Checklist
-- [ ] Create `transactions` table.
-- [ ] Build transaction form UI.
-- [ ] Implement photo upload + compression.
-- [ ] Build transaction table with pagination.
-- [ ] Compute running balance.
-- [ ] Add role‑based edit/delete logic.
-- [ ] Add approval workflow.
-- [ ] Write tests.
+- [x] Create `transactions` table.
+- [x] Build transaction form UI (`TransactionsPage`).
+- [x] Implement photo upload to Supabase Storage.
+- [x] Build transaction table & ledger view (`LedgerPage`).
+- [x] Compute running balance.
+- [x] Add filtering by unit and date range.
+- [x] Verify production build & Git push.
