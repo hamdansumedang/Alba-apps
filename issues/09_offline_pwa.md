@@ -16,10 +16,10 @@
 - UI shows sync status indicator.
 
 ## Checklist
-- [ ] Configure PWA manifest and service worker.
-- [ ] Set up IndexedDB wrapper (e.g., Dexie.js).
-- [ ] Implement offline transaction queue.
-- [ ] Implement online sync hook/worker.
-- [ ] Add conflict resolution logic.
-- [ ] Build sync status UI indicator.
-- [ ] Test offline scenarios.
+- [x] Configure PWA manifest and service worker.
+- [x] Set up IndexedDB wrapper (e.g., Dexie.js).
+- [x] Implement offline transaction queue.
+- [x] Implement online sync hook/worker.
+- [x] Add conflict resolution logic.
+- [x] Build sync status UI indicator.
+- [x] Test offline scenarios.

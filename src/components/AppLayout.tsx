@@ -1,5 +1,6 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
+import { SyncStatusIndicator } from '../features/system/SyncStatusIndicator'
 
 const navItems = [
   { to: '/', label: 'Dashboard' },
@@ -35,8 +36,7 @@ export function AppLayout() {
               {profile?.unit?.name ?? 'Semua Unit'} • {profile?.role === 'admin' ? 'Kepala Keuangan' : 'Staff'}
             </p>
           </div>
-          <div className="flex items-center gap-3">
-            <span className="text-sm text-gray-600 hidden sm:inline">{profile?.name}</span>
+          <div className="flex items-center gap-3">            <SyncStatusIndicator />            <span className="text-sm text-gray-600 hidden sm:inline">{profile?.name}</span>
             <button onClick={handleSignOut} className="text-sm text-red-600 hover:text-red-700">Keluar</button>
           </div>
         </div>
