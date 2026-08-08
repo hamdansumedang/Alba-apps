@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - DB_HOST=72.61.210.185
+      - DB_PORT=33090
+      - DB_USER=superadmin
+      - DB_PASSWORD=B-5millahberkah
+      - DB_NAME=alba-apps
