@@ -10,12 +10,12 @@
 |-------|-----------|--------|
 | **Frontend** | **React + Vite + Tailwind + shadcn/ui** | Cepat, modern, mobile friendly |
 | **Mobile Experience** | **PWA** (Progressive Web App) | Bisa diinstall di HP seperti aplikasi |
-| **Backend + Database** | **Supabase** | Real-time, Auth, Storage (foto), gratis |
-| **Offline** | **Supabase + localStorage / IndexedDB** | Bisa input saat offline |
-| **State Management** | **TanStack Query** | Real-time sync & caching |
+| **Backend + Database** | **PostgreSQL (Self-hosted di VPS) + Node.js/Express API** | Kontrol penuh, aman, menggunakan database VPS sendiri |
+| **Offline** | **IndexedDB + Local API Sync** | Bisa input saat offline lalu sinkronisasi ke VPS |
+| **State Management** | **TanStack Query / React Context** | Caching & manajemen data |
 | **Form** | **React Hook Form + Zod** | Validasi cepat |
 | **Export** | **xlsx + jspdf** | Excel & PDF |
-| **Hosting** | **Vercel** (frontend) + **Supabase** (backend) | Gratis & mudah |
+| **Hosting** | **Vercel / Netlify** (frontend) + **VPS Docker (PostgreSQL)** (backend/database) | Mandiri & performa tinggi |
 
 ---
 
